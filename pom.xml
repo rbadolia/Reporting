@@ -3,24 +3,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.crealytics.reporting</groupId>
+    <groupId>com.ramakant.reporting</groupId>
     <artifactId>reporting</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>domain</module>
         <module>persistence</module>
         <module>rest</module>
-        <module>domain</module>
-        <module>persistence</module>
-        <module>rest</module>
-        <module>csvprocessor</module>
-        <module>comcrealyticsdataingestion</module>
         <module>ingestion</module>
     </modules>
     <packaging>pom</packaging>
 
     <name>reporting</name>
-    <description>Root project for crealytics reporting</description>
+    <description>Root project for reporting</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
